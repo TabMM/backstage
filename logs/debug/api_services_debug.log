@@ -1,0 +1,17 @@
+2019-06-08-11-43 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$f4d58cc4] [INFO] - JedisPool注入成功！
+  2019-06-08-11-43 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$f4d58cc4] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  2019-06-08-11-45 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$3a6e4109] [INFO] - JedisPool注入成功！
+  2019-06-08-11-45 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$3a6e4109] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  2019-06-08-11-50 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$c9d3652c] [INFO] - JedisPool注入成功！
+  2019-06-08-11-50 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$c9d3652c] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  2019-06-08-11-53 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$b53d06bd] [INFO] - JedisPool注入成功！
+  2019-06-08-11-53 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$b53d06bd] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  2019-06-08-12-02 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$2ae0032] [INFO] - JedisPool注入成功！
+  2019-06-08-12-02 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$2ae0032] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  2019-06-08-13-23 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$ab0ddc47] [INFO] - JedisPool注入成功！
+  2019-06-08-13-23 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$ab0ddc47] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  2019-06-08-13-28 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$fc1f1781] [INFO] - JedisPool注入成功！
+  2019-06-08-13-28 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$fc1f1781] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  2019-06-08-22-47 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$5341a714] [INFO] - JedisPool注入成功！
+  2019-06-08-22-47 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$5341a714] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  

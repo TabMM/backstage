@@ -1,0 +1,309 @@
+2019-06-07-18-44 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-18-44 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 16996 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-18-44 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-18-44 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-18-44 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-18-44 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+  2019-06-07-18-44 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-44 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6fd69fe2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-44 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$aa148fde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-44 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-18-44 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1768 ms
+  2019-06-07-18-44 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-18-44 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-18-44 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.sessiontimeout
+    Value: 1800000
+    Origin: class path resource [shiro.yml]:6:23
+    Reason: No setter found for property: session-timeout
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-49 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-18-49 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 16688 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-18-49 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-18-49 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-18-49 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-18-49 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+  2019-06-07-18-49 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-49 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bfa6936] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-49 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$b6385932] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-49 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-18-49 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1780 ms
+  2019-06-07-18-49 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-18-49 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-18-49 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.expirein
+    Value: 1800
+    Origin: class path resource [shiro.yml]:4:17
+    Reason: No setter found for property: expire-in
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-50 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-18-50 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 5376 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-18-50 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-18-50 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-18-50 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-18-50 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+  2019-06-07-18-50 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-50 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25de7292] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-50 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$601c628e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-50 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-18-50 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1854 ms
+  2019-06-07-18-50 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-18-50 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-18-50 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.logouturl
+    Value: /logout
+    Origin: class path resource [shiro.yml]:16:18
+    Reason: No setter found for property: logout-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-51 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-18-51 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 16628 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-18-51 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-18-51 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-18-51 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-18-51 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+  2019-06-07-18-51 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-51 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6fd69fe2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-51 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$aa148fde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-51 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-18-51 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1768 ms
+  2019-06-07-18-51 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-18-51 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-18-51 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.sessiontimeout
+    Value: 1800000
+    Origin: class path resource [shiro.yml]:6:23
+    Reason: No setter found for property: session-timeout
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-53 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-18-53 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 252 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-18-53 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-18-53 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-18-53 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-18-53 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+  2019-06-07-18-54 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-54 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d26590f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-54 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$ca380ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-54 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-18-54 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1774 ms
+  2019-06-07-18-54 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-18-54 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-18-54 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.unauthorizedurl
+    Value: /error
+    Origin: class path resource [shiro.yml]:18:24
+    Reason: No setter found for property: unauthorized-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-55 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-18-55 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 16816 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-18-55 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-18-55 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-18-55 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-18-55 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+  2019-06-07-18-55 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-55 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8584accd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-55 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$bfc29cc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-18-55 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-18-55 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 2041 ms
+  2019-06-07-18-55 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-18-55 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-18-55 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.sessiontimeout
+    Value: 180000
+    Origin: class path resource [shiro.yml]:6:23
+    Reason: No setter found for property: session-timeout
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-19-15 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-19-15 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 8768 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-19-15 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-19-15 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-19-15 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-19-15 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+  2019-06-07-19-15 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-15 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0ba9915] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-15 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$eaf88911] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-15 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-19-15 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1775 ms
+  2019-06-07-19-15 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-19-15 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-19-15 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.logouturl
+    Value: /logout
+    Origin: class path resource [shiro.yml]:16:18
+    Reason: No setter found for property: logout-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-19-23 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-19-23 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 17456 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-19-23 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-19-23 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-19-23 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-19-23 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+  2019-06-07-19-23 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-23 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b161f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-23 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$85540f31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-23 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-19-23 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1854 ms
+  2019-06-07-19-23 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-19-23 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-19-23 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.loginurl
+    Value: /login
+    Origin: class path resource [shiro.yml]:12:17
+    Reason: No setter found for property: login-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-19-30 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.16.Final
+  2019-06-07-19-30 [main] [com.laity.backstage.BackstageApplication] [INFO] - Starting BackstageApplication on DESKTOP-C7DNABD with PID 17464 (F:\idea-dep\backstage\target\classes started by D.F Douglas in F:\idea-dep\backstage)
+  2019-06-07-19-30 [main] [com.laity.backstage.BackstageApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-06-07-19-30 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Multiple Spring Data modules found, entering strict repository configuration mode!
+  2019-06-07-19-30 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-06-07-19-30 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+  2019-06-07-19-30 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisProperties' of type [com.laity.backstage.system.utils.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-30 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$175873bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-30 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'redisConfig' of type [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$519663b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-06-07-19-30 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-06-07-19-30 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1764 ms
+  2019-06-07-19-30 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'shiroProperties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'shiroProperties': Could not bind properties to 'ShiroProperties' : prefix=laity.shiro, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties
+  2019-06-07-19-30 [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+  2019-06-07-19-30 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.successurl
+    Value: /admin/index
+    Origin: class path resource [shiro.yml]:14:19
+    Reason: No setter found for property: success-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-19-49 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$8794bae5] [INFO] - JedisPool注入成功！
+  2019-06-07-19-49 [main] [com.laity.backstage.system.config.RedisConfig$$EnhancerBySpringCGLIB$$8794bae5] [INFO] - RedisProperties{host='120.79.66.109', port=6397, timeout=0, maxActive=8, maxIdle=8, minIdle=0, maxWait='-1'}
+  

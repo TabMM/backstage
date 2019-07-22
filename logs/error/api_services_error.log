@@ -1,0 +1,172 @@
+2019-06-07-18-44 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.sessiontimeout
+    Value: 1800000
+    Origin: class path resource [shiro.yml]:6:23
+    Reason: No setter found for property: session-timeout
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-49 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.expirein
+    Value: 1800
+    Origin: class path resource [shiro.yml]:4:17
+    Reason: No setter found for property: expire-in
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-50 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.logouturl
+    Value: /logout
+    Origin: class path resource [shiro.yml]:16:18
+    Reason: No setter found for property: logout-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-51 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.sessiontimeout
+    Value: 1800000
+    Origin: class path resource [shiro.yml]:6:23
+    Reason: No setter found for property: session-timeout
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-54 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.unauthorizedurl
+    Value: /error
+    Origin: class path resource [shiro.yml]:18:24
+    Reason: No setter found for property: unauthorized-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-18-55 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.sessiontimeout
+    Value: 180000
+    Origin: class path resource [shiro.yml]:6:23
+    Reason: No setter found for property: session-timeout
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-19-15 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.logouturl
+    Value: /logout
+    Origin: class path resource [shiro.yml]:16:18
+    Reason: No setter found for property: logout-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-19-23 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.loginurl
+    Value: /login
+    Origin: class path resource [shiro.yml]:12:17
+    Reason: No setter found for property: login-url
+
+Action:
+
+Update your application's configuration
+
+  2019-06-07-19-30 [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'laity.shiro' to com.laity.backstage.system.utils.ShiroProperties:
+
+    Property: laity.shiro.successurl
+    Value: /admin/index
+    Origin: class path resource [shiro.yml]:14:19
+    Reason: No setter found for property: success-url
+
+Action:
+
+Update your application's configuration
+
+  
